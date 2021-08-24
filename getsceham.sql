@@ -1,5 +1,7 @@
 ﻿/*https://dba.stackexchange.com/questions/95236/how-can-i-compare-the-schema-of-two-databases*/
-SELECT TABLE_SCHEMA ,
+SELECT 
+TABLE_CATALOG,
+TABLE_SCHEMA ,
        TABLE_NAME ,
        COLUMN_NAME ,
        ORDINAL_POSITION ,

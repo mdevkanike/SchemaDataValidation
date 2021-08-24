@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>70aafb4a-8f29-49d4-b9ae-cb644d23a542</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>testSqlAdapater.py</StartupFile>
+    <StartupFile>testUsecases.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="testUsecases.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="testSqlAdapater.py">
       <SubType>Code</SubType>
     </Compile>
@@ -47,7 +50,13 @@
   <ItemGroup>
     <Content Include="sourcedb.sql" />
     <Content Include="getsceham.sql" />
+    <Content Include="source_database.csv" />
+    <Content Include="source_database_dbo_EMP.csv" />
+    <Content Include="source_database_dbo_SALGRADE.csv" />
     <Content Include="targetdb.sql" />
+    <Content Include="target_database.csv" />
+    <Content Include="target_database_dbo_EMP.csv" />
+    <Content Include="target_database_dbo_SALGRADE.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
