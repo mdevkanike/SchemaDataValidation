@@ -1,4 +1,3 @@
-import sqlAdpater as sqladpter
 import pandas as pd
 import pandasql
 from pandasql import sqldf
